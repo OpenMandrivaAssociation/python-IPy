@@ -10,7 +10,6 @@ Source0:        http://cheeseshop.python.org/packages/source/I/IPy/IPy-%{version
 License:        BSD
 Group:          Development/Python
 BuildRequires:  python-devel
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:      noarch
 
 %description
