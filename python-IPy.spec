@@ -2,8 +2,8 @@
 
 Summary:        Python module for handling IPv4 and IPv6 Addresses and Networks
 Name:           python-%{oname}
-Version:        0.55
-Release:        %mkrel 4
+Version:        0.62
+Release:        %mkrel 1
 Epoch:          0
 URL:            http://software.inl.fr/trac/trac.cgi/wiki/IPy
 Source0:        http://cheeseshop.python.org/packages/source/I/IPy/IPy-%{version}.tar.gz
@@ -14,9 +14,9 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:      noarch
 
 %description
-IPy is a Python module for handling IPv4 and IPv6 Addresses and Networks 
-in a fashion similar to perl's Net::IP and friends. The IP class allows 
-a comfortable parsing and handling for most notations in use for IPv4 
+IPy is a Python module for handling IPv4 and IPv6 Addresses and Networks
+in a fashion similar to perl's Net::IP and friends. The IP class allows
+a comfortable parsing and handling for most notations in use for IPv4
 and IPv6 Addresses and Networks.
 
 %prep
