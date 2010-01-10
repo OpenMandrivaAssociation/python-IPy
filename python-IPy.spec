@@ -2,7 +2,7 @@
 
 Summary:        Python module for handling IPv4 and IPv6 Addresses and Networks
 Name:           python-%{oname}
-Version:        0.63
+Version:        0.70
 Release:        %mkrel 1
 Epoch:          0
 URL:            http://software.inl.fr/trac/trac.cgi/wiki/IPy
@@ -34,7 +34,7 @@ CFLAGS="%{optflags}" %{_bindir}/python setup.py build
 
 %files
 %defattr(-,root,root)
-%doc AUTHORS COPYING ChangeLog PKG-INFO README example
+%doc AUTHORS COPYING ChangeLog PKG-INFO README
 %{python_sitelib}/%{oname}*
 
 
