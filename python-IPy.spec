@@ -2,7 +2,7 @@
 
 Summary:        Python module for handling IPv4 and IPv6 Addresses and Networks
 Name:           python-%{oname}
-Version:        0.70
+Version:        0.71
 Release:        %mkrel 1
 Epoch:          0
 URL:            http://software.inl.fr/trac/trac.cgi/wiki/IPy
