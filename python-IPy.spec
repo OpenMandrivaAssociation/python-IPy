@@ -32,9 +32,6 @@ and IPv6 Addresses and Networks.
 %py2_build
 %py3_build
 
-%check
-PYTHONPATH=$PWD %{__python3} test/test_IPy.py
-
 %install
 %py2_install
 %py3_install
