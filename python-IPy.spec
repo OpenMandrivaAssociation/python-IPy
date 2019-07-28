@@ -8,6 +8,7 @@ Source0:        https://files.pythonhosted.org/packages/source/I/IPy/IPy-%{versi
 License:        BSD
 BuildRequires:  python2-devel python3-devel
 BuildArch:      noarch
+Provides:	python3-%{oname} = %{EVRD}
 
 %description
 IPy is a Python module for handling IPv4 and IPv6 Addresses and Networks 
