@@ -1,10 +1,10 @@
 %define oname IPy
 Summary:        Python module for handling IPv4 and IPv6 Addresses and Networks
 Name:           python-%{oname}
-Version:        0.81
-Release:        24%{?dist}
+Version:	1.00
+Release:	1
 URL:            https://github.com/haypo/python-ipy
-Source0:        https://files.pythonhosted.org/packages/source/I/IPy/IPy-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/e1/66/b6dd22472bb027556849876beae2dd4dca3a4eaf2dd3039277b4edb8c6af/IPy-1.00.tar.gz
 License:        BSD
 BuildRequires:  python2-devel python3-devel
 BuildArch:      noarch
@@ -38,11 +38,11 @@ and IPv6 Addresses and Networks.
 
 %files -n python2-%{oname}
 %license COPYING
-%doc AUTHORS ChangeLog README
+%doc AUTHORS ChangeLog
 %{python2_sitelib}/%{oname}*
 
 %files
 %license COPYING
-%doc AUTHORS ChangeLog README
+%doc AUTHORS ChangeLog
 %{python3_sitelib}/%{oname}*
 %{python3_sitelib}/__pycache__/%{oname}*
