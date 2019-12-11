@@ -2,7 +2,7 @@
 Summary:        Python module for handling IPv4 and IPv6 Addresses and Networks
 Name:           python-%{oname}
 Version:	1.00
-Release:	1
+Release:	2
 URL:            https://github.com/haypo/python-ipy
 Source0:	https://files.pythonhosted.org/packages/e1/66/b6dd22472bb027556849876beae2dd4dca3a4eaf2dd3039277b4edb8c6af/IPy-1.00.tar.gz
 License:        BSD
